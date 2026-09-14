@@ -1,0 +1,73 @@
+import { EventItem } from "./types";
+
+// Replace this array with your own data, or wire it up to a CMS/Sheet/API later.
+// `date` must be ISO (YYYY-MM-DD). Status (live/upcoming/past) is computed
+// automatically from today's date in lib/status.ts — you don't set it by hand.
+export const events: EventItem[] = [
+  {
+    id: "1",
+    title: "Festival Kuliner Solo Raya",
+    location: "Alun-Alun Kidul, Surakarta",
+    date: "2026-09-20",
+    time: "16:00",
+    lat: -7.5745,
+    lng: 110.8272,
+    tag: "Kuliner",
+    description: "Bazar kuliner UMKM lokal dengan puluhan tenant.",
+  },
+  {
+    id: "2",
+    title: "Karnaval Budaya Sukoharjo",
+    location: "Sukoharjo",
+    date: "2026-09-27",
+    time: "08:00",
+    lat: -7.6883,
+    lng: 110.8353,
+    tag: "Karnaval",
+    description: "Pawai budaya tahunan keliling kota.",
+  },
+  {
+    id: "3",
+    title: "Konser Musik Akustik Malam",
+    location: "Taman Balekambang, Surakarta",
+    date: "2026-10-05",
+    time: "19:30",
+    lat: -7.5563,
+    lng: 110.8331,
+    tag: "Musik",
+    description: "Panggung musik akustik komunitas lokal.",
+  },
+  {
+    id: "4",
+    title: "Pasar Malam Ngoresan",
+    location: "Jebres, Surakarta",
+    date: "2026-09-15",
+    time: "17:00",
+    lat: -7.5539,
+    lng: 110.8489,
+    tag: "Pasar Malam",
+    description: "Pasar malam mingguan dengan wahana dan jajanan.",
+  },
+  {
+    id: "5",
+    title: "Sarasehan Komunitas RT 04",
+    location: "Kelurahan Jebres",
+    date: "2026-08-30",
+    time: "19:00",
+    lat: -7.5602,
+    lng: 110.8455,
+    tag: "Komunitas",
+    description: "Pertemuan warga membahas agenda kampung.",
+  },
+  {
+    id: "6",
+    title: "Grebeg Panen Raya Klaten",
+    location: "Klaten",
+    date: "2026-08-18",
+    time: "09:00",
+    lat: -7.7056,
+    lng: 110.6069,
+    tag: "Budaya",
+    description: "Upacara adat syukuran hasil panen.",
+  },
+];
